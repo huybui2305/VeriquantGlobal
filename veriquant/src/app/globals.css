@@ -1,0 +1,40 @@
+/* Google Fonts — must be first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+/* Tailwind */
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #080b10;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.font-mono {
+  font-family: 'Space Mono', 'Courier New', monospace !important;
+}
+.font-sans {
+  font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0a0f1a; }
+::-webkit-scrollbar-thumb { background: rgba(0,200,150,0.2); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,200,150,0.4); }
+
+/* select option styling */
+select option {
+  background: #0d1625;
+  color: #e2e8f0;
+}

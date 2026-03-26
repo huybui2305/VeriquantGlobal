@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.env
+
+# Next.js
+veriquant/.next/
+veriquant/node_modules/
+veriquant/.vercel/
+veriquant/out/
+
+# Build output
+dist/
+build/
